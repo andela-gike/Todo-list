@@ -1,0 +1,24 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A todolist app",
+  "main": "cd todoapp",
+  "scripts": {
+    "pre-start": "cd todo-app",
+    "start": "npm run pre-start && npm start",
+    "test": "cd todo-app npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-gike/Todo-list.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Ike Grace",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-gike/Todo-list/issues"
+  },
+  "homepage": "https://github.com/andela-gike/Todo-list#readme"
+}
